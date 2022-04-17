@@ -200,21 +200,21 @@ export default function NewsPageTile() {
 const featuredPosts = [
   {
     title: "NFT is starting to Burst",
-    description: "Economic Time",
+    description: "Form of crypto asset which can record the ownership of a digital file",
     image:
       "https://cryptocurrencycompany.files.wordpress.com/2021/12/nfts-development.jpg",
     imageText: "Economic Time",
   },
   {
     title: "Unlocking new products",
-    description: "Forbes",
+    description: "An instrument to make financial investment, borrow money or save money",
     image:
       "http://bsmedia.business-standard.com/_media/bs/img/article/2015-09/05/full/1441395847-4466.jpg",
     imageText: "Forbes",
   },
   {
     title: "Technology - Networking Program",
-    description: "Towards data science",
+    description: "Technology is the continually developing result of accumulated knowledge and application ",
     image:
       "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0-647x363.jpeg?0LocAW2E2gIBzZp0oZSWzxmQTvAPhN_v",
     imageText: "Towards data science",
