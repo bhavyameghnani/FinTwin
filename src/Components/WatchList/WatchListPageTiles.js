@@ -93,7 +93,7 @@ export default function WatchListPageTile() {
         <Typography variant="h5" className={classes.divHeading}>
           <b>Financial Watch List</b>
           
-          <Button
+          <Button     href="/favlist"
                       variant="outlined"
                       size="small"
                       color="primary"
@@ -209,24 +209,24 @@ export default function WatchListPageTile() {
 
 const featuredPosts = [
   {
-    title: "Watch List Item 1",
-    description: "Form of crypto asset which can record the ownership of a digital file",
+    title: "French Lessons for the Biden Administration ",
+    description: "French Lessons for the Biden Administration",
     image:
-      "https://cryptocurrencycompany.files.wordpress.com/2021/12/nfts-development.jpg",
+      "https://cdn.wionews.com/sites/default/files/styles/story_page/public/2022/04/27/257682-elecions.jpg",
     imageText: "Economic Time",
   },
   {
-    title: "Watch List Item 2",
-    description: "An instrument to make financial investment, borrow money or save money",
+    title: "Geraldine Weiss Dies at 96; Blazed a Trail for Women in Investing",
+    description: "She published her stock market newsletter for nearly four decades — initially as “G. Weiss,” to conceal her identity as a woman in a male-dominated industry.",
     image:
-      "http://bsmedia.business-standard.com/_media/bs/img/article/2015-09/05/full/1441395847-4466.jpg",
+      "https://static01.nyt.com/images/2022/04/27/obituaries/00weiss_geraldine-print1/00weiss_geraldine-mediumThreeByTwo252.jpg?quality=100&auto=webp ",
     imageText: "Forbes",
   },
   {
-    title: "Watch List Item 3",
-    description: "Technology is the continually developing result of accumulated knowledge and application ",
+    title: "The Shifts in the Markets Are Enough to Make Your Head Spin ",
+    description: "After falling sharply for weeks, the stock market recovered much of its lost ground, though bonds have kept falling. With major risks unresolved, there may well be worse to come.",
     image:
-      "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0-647x363.jpeg?0LocAW2E2gIBzZp0oZSWzxmQTvAPhN_v",
+      " https://static01.nyt.com/images/2022/04/10/business/10mfq-quarter-art/10mfq-quarter-art-mediumThreeByTwo252-v2.jpg?quality=100&auto=webp",
     imageText: "Towards data science",
   },
 ];

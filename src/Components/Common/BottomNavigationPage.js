@@ -39,7 +39,12 @@ export default function BottomNavigationPage() {
               component={Link}
               to="/watchlist" 
             />
-            <BottomNavigationAction label="Portfolio" icon={<ArchiveIcon />} />
+            <BottomNavigationAction 
+              label="Portfolio" 
+              icon={<ArchiveIcon />} 
+              component={Link}
+              to ="https://berrydashboard.io/free/"  
+              />
           </BottomNavigation>
         </Paper>
       </main>

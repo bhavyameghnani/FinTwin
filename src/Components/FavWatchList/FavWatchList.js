@@ -4,7 +4,7 @@ import Container from "@material-ui/core/Container";
 import Header from "../Common/Header";
 import MainFeaturedPost from "../Common/MainFeaturedPost";
 import Grid from "@material-ui/core/Grid";
-import WatchListPageTile from "./WatchListPageTiles";
+import FavWatchListTile from "./FavWatchListTiles";
 
 export default function WatchPage() {
   return (
@@ -15,7 +15,7 @@ export default function WatchPage() {
         <main>
           <MainFeaturedPost post={mainFeaturedPost} />
           <Grid container spacing={2} align="center">
-            <WatchListPageTile />
+            <FavWatchListTile />
           </Grid>
         </main>
       </Container>

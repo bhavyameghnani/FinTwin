@@ -6,6 +6,7 @@ import LoginPage from "./Components/LoginPage/LoginPage";
 import HomePage from "./Components/HomePage/HomePage";
 import NewsPage from "./Components/News/NewsPage";
 import WatchListPage from "./Components/WatchList/WatchListPage";
+import FavWatchList from "./Components/FavWatchList/FavWatchList";
 import LiteracyPage from "./Components/Literacy/LiteracyPage";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           {/* <Route path="literacyDetails/:eid" element={<LiteracyDetailsPage />} /> */}
           <Route path="/news" element={<NewsPage />} />
           <Route path="/watchlist" element={<WatchListPage />} />
+          <Route path="/favlist" element={<FavWatchList/>} />
           <Route path="/" element={<LoginPage />} />
           <Route path="/signup" element={<SignUpPage />} />
         </Routes>

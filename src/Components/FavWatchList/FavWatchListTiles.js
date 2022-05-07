@@ -216,13 +216,6 @@ const featuredPosts = [
     imageText: "Economic Time",
   },
   {
-    title: "Unlocking new products",
-    description: "An instrument to make financial investment, borrow money or save money",
-    image:
-      "http://bsmedia.business-standard.com/_media/bs/img/article/2015-09/05/full/1441395847-4466.jpg",
-    imageText: "Forbes",
-  },
-  {
     title: "Technology - Networking Program",
     description: "Technology is the continually developing result of accumulated knowledge and application ",
     image:
