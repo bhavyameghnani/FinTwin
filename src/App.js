@@ -8,6 +8,13 @@ import NewsPage from "./Components/News/NewsPage";
 import WatchListPage from "./Components/WatchList/WatchListPage";
 import FavWatchList from "./Components/FavWatchList/FavWatchList";
 import LiteracyPage from "./Components/Literacy/LiteracyPage";
+// import './App.css';
+import QuestionCard from './Components/Quiz/QuestionCard';
+import { MainApp } from './Components/Quiz/PageElements/MainApp';
+import { theme } from './Components/Quiz/data/AppTheme'
+import { createGlobalStyle, ThemeProvider } from 'styled-components';
+
+
 
 function App() {
   return (
@@ -22,6 +29,15 @@ function App() {
           <Route path="/favlist" element={<FavWatchList/>} />
           <Route path="/" element={<LoginPage />} />
           <Route path="/signup" element={<SignUpPage />} />
+          <Route path="/quiz" element={ <ThemeProvider theme={theme}>
+
+      <MainApp className="app">
+        <QuestionCard />
+        <p style={{ fontSize: '.7rem', textAlign: 'center' }}>  {new Date().getFullYear()}</p>
+      </MainApp>
+    </ThemeProvider>  } />
+          
+
         </Routes>
       </BrowserRouter>
     </div>
