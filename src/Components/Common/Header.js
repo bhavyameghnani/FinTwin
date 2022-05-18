@@ -8,6 +8,7 @@ import Typography from "@material-ui/core/Typography";
 import Link from "@material-ui/core/Link";
 
 const sections = [
+  { title: "Screen", url:"/screen"},
   { title: "Home", url: "/home" },
   { title: "Financial Literacy", url: "/literacy" },
   { title: "Manual", url: "/manual" },
@@ -50,7 +51,8 @@ export default function Header(props) {
         <img
           className={classes.logo}
           alt="logo"
-          src="https://1000logos.net/wp-content/uploads/2021/10/Unity-logo.png"
+          src="https://mark.trademarkia.com/logo-images/gtech-optoelectronics-corporation/smart-mirror-86278283.jpg"
+          
         />
         <Typography
           component="h2"

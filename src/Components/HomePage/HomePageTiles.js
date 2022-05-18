@@ -91,24 +91,7 @@ export default function WatchListPageTile() {
       <CssBaseline />
       <main>
         <Typography variant="h5" className={classes.divHeading}>
-        <Button
-                      variant="outlined"
-                      size="small"
-                      color="primary"
-                      align="center"
-                      fullWidth
-                    >
-                      Features :
-                      FinTwin, a smart interacting mirror which can be installed in any rooms wherein they will interact with users & share the financial news, information about products offered by firms and can even manage their portfolio with an interactive session.
-It makes them aware & well updated with the ways to save & invest money with upcoming tricks & techniques.
-It also makes users realize & inspires them to be ready for the future with smart investments. 
-Every Morning, along with getting ready for college/work our new family member will greet you with positive quotes and quick short information on what is happening in the world of finance & investments. 
-Instead of reading a boring newsletter or big article, you can simply hear personalized curated quick shorts with interactive commands. 
-Similar to morning positive affirmations, this module helps younger or any generation to stay connected and start their day with interesting short stories and facts shared all across the globe to expand their horizon and have the right mindset of realizing the importance of financial freedom.
-FTCoins can be redeemed and further used to buy the products offered by “the firm”
-Partnered Advertisement can be done over Smart mirror
-
-                    </Button>
+        
           
           <b>New Products (Offered by the firm)</b>          
         </Typography>

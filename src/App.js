@@ -3,6 +3,7 @@ import "./App.css";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import SignUpPage from "./Components/SignUpPage/SignUpPage";
 import LoginPage from "./Components/LoginPage/LoginPage";
+import Screen from "./Components/Screen/Screen";
 import HomePage from "./Components/HomePage/HomePage";
 import NewsPage from "./Components/News/NewsPage";
 import WatchListPage from "./Components/WatchList/WatchListPage";
@@ -21,6 +22,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
+          <Route path="/screen" element={<Screen />} />
           <Route path="/home" element={<HomePage />} />
           <Route path="/literacy" element={<LiteracyPage />} />
           {/* <Route path="literacyDetails/:eid" element={<LiteracyDetailsPage />} /> */}
@@ -36,6 +38,8 @@ function App() {
         <p style={{ fontSize: '.7rem', textAlign: 'center' }}>  {new Date().getFullYear()}</p>
       </MainApp>
     </ThemeProvider>  } />
+
+       
           
 
         </Routes>

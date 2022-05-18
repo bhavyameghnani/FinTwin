@@ -70,7 +70,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });
 
-export default function WatchListPageTile() {
+export default function ScreenTile() {
   const classes = useStyles();
 
   const [open, setOpen] = React.useState(false);
@@ -91,17 +91,9 @@ export default function WatchListPageTile() {
       <CssBaseline />
       <main>
         <Typography variant="h5" className={classes.divHeading}>
-          <b>Financial Watch List</b>
+        
           
-          <Button
-                      variant="outlined"
-                      size="small"
-                      color="primary"
-                      align="center"
-                      fullWidth
-                    >
-                      My favourites
-                    </Button>
+          <b>New Products (Offered by the firm)</b>          
         </Typography>
         <br />
         <Grid container spacing={4}>
@@ -209,14 +201,21 @@ export default function WatchListPageTile() {
 
 const featuredPosts = [
   {
-    title: "NFT is starting to Burst",
+    title: "Product 1",
     description: "Form of crypto asset which can record the ownership of a digital file",
     image:
       "https://cryptocurrencycompany.files.wordpress.com/2021/12/nfts-development.jpg",
     imageText: "Economic Time",
   },
   {
-    title: "Technology - Networking Program",
+    title: "Product 2",
+    description: "An instrument to make financial investment, borrow money or save money",
+    image:
+      "http://bsmedia.business-standard.com/_media/bs/img/article/2015-09/05/full/1441395847-4466.jpg",
+    imageText: "Forbes",
+  },
+  {
+    title: "Product 3",
     description: "Technology is the continually developing result of accumulated knowledge and application ",
     image:
       "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0-647x363.jpeg?0LocAW2E2gIBzZp0oZSWzxmQTvAPhN_v",

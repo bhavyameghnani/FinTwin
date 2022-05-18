@@ -4,7 +4,7 @@ import Container from "@material-ui/core/Container";
 import Header from "../Common/Header";
 import MainFeaturedPost from "../Common/MainFeaturedPost";
 import Grid from "@material-ui/core/Grid";
-import HomePageTile from "./HomePageTiles";
+import ScreenTile from "./ScreenTiles";
 
 export default function HomePage() {
   return (
@@ -15,7 +15,7 @@ export default function HomePage() {
         <main>
           <MainFeaturedPost post={mainFeaturedPost} />
           <Grid container spacing={2} align="center">
-            <HomePageTile />
+            
           </Grid>
         </main>
       </Container>

@@ -7,6 +7,7 @@ import FavoriteIcon from "@material-ui/icons/Announcement";
 import ArchiveIcon from "@material-ui/icons/Assessment";
 import Paper from "@material-ui/core/Paper";
 import { Link } from "react-router-dom";
+import ChatIcon from '@mui/icons-material/Chat';
 
 export default function BottomNavigationPage() {
   const [value, setValue] = React.useState();
@@ -42,9 +43,15 @@ export default function BottomNavigationPage() {
             <BottomNavigationAction 
               label="Portfolio" 
               icon={<ArchiveIcon />} 
+              component = {Link}
+              to ="https://finayna-portfolio.netlify.app/"
+            />
+            <BottomNavigationAction 
+              label="Chat" 
+              icon={<ChatIcon />}
               component={Link}
-              to ="https://berrydashboard.io/free/"  
-              />
+              to="/" 
+            />
           </BottomNavigation>
         </Paper>
       </main>

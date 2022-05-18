@@ -25,7 +25,7 @@ export default function NewsPage() {
 }
 
 const mainFeaturedPost = {
-  title: "Recommended Financial Page",
+  title: " Curated Financial Page",
   description:
     "FinTwin recommends Financial news to keep you posted on what's happening across the world.",
   image:
