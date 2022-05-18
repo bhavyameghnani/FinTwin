@@ -64,7 +64,8 @@ export default function Header(props) {
         >
           {title}
         </Typography>
-        <IconButton>
+        <IconButton onClick={()=>window.open("https://finayna-profile.netlify.app")}>
+          
           <AccountCircleIcon />
         </IconButton>
       </Toolbar>

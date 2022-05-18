@@ -5,6 +5,7 @@ import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
 import RestoreIcon from "@material-ui/icons/Restore";
 import FavoriteIcon from "@material-ui/icons/Announcement";
 import ArchiveIcon from "@material-ui/icons/Assessment";
+import { Button } from '@mui/material';
 import Paper from "@material-ui/core/Paper";
 import { Link } from "react-router-dom";
 import ChatIcon from '@mui/icons-material/Chat';
@@ -40,19 +41,19 @@ export default function BottomNavigationPage() {
               component={Link}
               to="/watchlist" 
             />
-            <BottomNavigationAction 
+            
+              <BottomNavigationAction 
               label="Portfolio" 
               icon={<ArchiveIcon />} 
-              component = {Link}
-              to ="https://finayna-portfolio.netlify.app/"
+              onClick={()=>window.open("https://finayna-portfolio.netlify.app")}
             />
+            
             <BottomNavigationAction 
               label="Chat" 
               icon={<ChatIcon />}
-              component={Link}
-              to="/" 
+              onClick={()=>window.open("https://finayna-chatbot.netlify.app")}
             />
-          </BottomNavigation>
+          </BottomNavigation> 
         </Paper>
       </main>
     </React.Fragment>

@@ -149,6 +149,7 @@ export default function LiteracyPageTiles() {
                       color="primary"
                       align="center"
                       fullWidth
+                      onClick={()=>window.open("https://finayna-quiz.netlify.app")}
                     >
                       Apply for Quiz
                     </Button>
