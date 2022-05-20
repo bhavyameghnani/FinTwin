@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
   avatar: {
     margin: theme.spacing(1),
     // backgroundColor: theme.palette.secondary.main,
-    backgroundColor: "#ca142a",
+    backgroundColor: "#2F4F4F",
   },
   form: {
     width: "100%", // Fix IE 11 issue.
@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
   },
   submit: {
     margin: theme.spacing(3, 0, 2),
-    backgroundColor: "#ca142a",
+    backgroundColor: "#2F4F4F",
     color: "#FFFFFF",
   },
 }));
@@ -71,16 +71,16 @@ export default function LoginPage() {
     };
 
     //temporary login
-    window.open("/home", "_self");
+    window.open("/screen", "_self");
 
     ServiceCall.userSignIn(userLoginDetails).then((response) => {
       if (response.data === "False") {
         alert("User is not regitered, Please signup before");
-        window.open("/home", "_self");
+        window.open("/screen", "_self");
       } else {
         // console.log(response.data)
         localStorage.setItem("user_key", response.name);
-        window.open("/home", "_self");
+        window.open("/screen", "_self");
       }
     });
   }
@@ -128,6 +128,7 @@ export default function LoginPage() {
             type="submit"
             fullWidth
             variant="contained"
+            color="primary"
             className={classes.submit}
             onClick={handleSubmit}
           >
@@ -161,7 +162,7 @@ export default function LoginPage() {
           <Box mt={5}>
             <Typography
               variant="body1"
-              style={{ color: "#ca142a" }}
+              style={{ color: "#2F4F4F" }}
               align="center"
             >
               Welcome to FinTwin
@@ -169,7 +170,7 @@ export default function LoginPage() {
             <br />
             <Typography
               variant="body1"
-              style={{ color: "#ca142a" }}
+              style={{ color: "#2F4F4F" }}
               align="center"
             >
               <b>

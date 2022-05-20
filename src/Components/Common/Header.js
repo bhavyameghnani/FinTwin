@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
   },
   toolbarTitle: {
     flex: 1,
-    color: "#ca142a",
+    color: "#2F4F4F",
     fontWeight: 600,
   },
   toolbarSecondary: {
@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(1),
     flexShrink: 0,
     "&:hover": {
-      color: "#ca142a",
+      color: "#2F4F4F",
     },
   },
   logo: {

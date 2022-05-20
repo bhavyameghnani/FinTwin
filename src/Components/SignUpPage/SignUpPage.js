@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
   },
   avatar: {
     margin: theme.spacing(1),
-    backgroundColor: "#ca142a",
+    backgroundColor: "#2F4F4F",
   },
   form: {
     width: "100%", // Fix IE 11 issue.
@@ -43,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
   },
   submit: {
     margin: theme.spacing(3, 0, 2),
-    backgroundColor: "#ca142a",
+    backgroundColor: "#2F4F4F",
   },
 }));
 
@@ -209,7 +209,7 @@ export default function SignUpPage() {
           <Box mt={5}>
             <Typography
               variant="body1"
-              style={{ color: "#ca142a" }}
+              style={{ color: "#2F4F4F" }}
               align="center"
             >
               Welcome to FinTwin
@@ -217,7 +217,7 @@ export default function SignUpPage() {
             <br />
             <Typography
               variant="body1"
-              style={{ color: "#ca142a" }}
+              style={{ color: "#2F4F4F" }}
               align="center"
             >
               <b>

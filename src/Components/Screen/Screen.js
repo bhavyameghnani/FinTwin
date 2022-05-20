@@ -12,23 +12,21 @@ export default function HomePage() {
       <CssBaseline />
       <Container maxWidth="lg">
         <Header title="FinAyna" />
-        <main>
-          <MainFeaturedPost post={mainFeaturedPost} />
-          <Grid container spacing={2} align="center">
-            
-          </Grid>
-        </main>
+        <div>
+        <iframe
+      width="853"
+      height="480"
+      src={`https://www.youtube.com/embed/puFSdfIRNIw`}
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      title="Embedded youtube"
+    />
+        </div>
       </Container>
       <br />
     </React.Fragment>
   );
 }
 
-const mainFeaturedPost = {
-  title: "FinAyna",
-  description: "Smart Interacting mirror that shares financial news, products offered & manage portfolio with an interactive session.",
-  image:
-    "https://rpi-magazines.s3-eu-west-1.amazonaws.com/magpi/legacy-assets/2016/01/step3.jpg",
-  imgText: "HomePage",
-  linkText: "Continue reading…",
-};
+
