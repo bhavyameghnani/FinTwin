@@ -56,7 +56,7 @@ const useStyles = makeStyles((theme) => ({
     width: 600,
   },
   divHeading: {
-    color: "#2F4F4F",
+    color: "#4527A0",
   },
   subHeading: {
     color: "#115293",

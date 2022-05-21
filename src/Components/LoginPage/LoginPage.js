@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
   avatar: {
     margin: theme.spacing(1),
     // backgroundColor: theme.palette.secondary.main,
-    backgroundColor: "#2F4F4F",
+    backgroundColor: "#4527A0",
   },
   form: {
     width: "100%", // Fix IE 11 issue.
@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
   },
   submit: {
     margin: theme.spacing(3, 0, 2),
-    backgroundColor: "#2F4F4F",
+    backgroundColor: "#4527A0",
     color: "#FFFFFF",
   },
 }));
@@ -162,7 +162,7 @@ export default function LoginPage() {
           <Box mt={5}>
             <Typography
               variant="body1"
-              style={{ color: "#2F4F4F" }}
+              style={{ color: "#4527A0" }}
               align="center"
             >
               Welcome to FinTwin
@@ -170,7 +170,7 @@ export default function LoginPage() {
             <br />
             <Typography
               variant="body1"
-              style={{ color: "#2F4F4F" }}
+              style={{ color: "#4527A0" }}
               align="center"
             >
               <b>
